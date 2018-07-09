@@ -1,0 +1,30 @@
+.total {
+   width: 80%;
+   background-color: #A9A9A9;
+   border-radius: 5px;
+   position: relative;
+   height: 20px;
+}
+#percentage {
+  height: 20px;
+  background-color: GRAY;
+
+  border-radius: 5px;
+  position: relative;
+}
+span {
+  z-index: 9;
+  position: absolute;
+  color: WHITE;
+  margin: 0 0 0 5px;
+}
+.selected {
+  background-color: GREEN;
+  width: 80%;
+}
+.selected span{
+  color: WHITE;
+}
+.selected #percentage {
+  background-color: BLUE;
+}
